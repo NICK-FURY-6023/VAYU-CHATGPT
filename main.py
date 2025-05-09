@@ -4580,11 +4580,16 @@ async def tts(interaction: discord.Interaction, text: str):
     else:
         await interaction.followup.send("Please provide some text to convert to voice.", ephemeral=True)
 
+# Initialize the dictionary for AI toggle state per channel
+ai_toggle_per_channel = {}
+
+# Define the toggle choices
 toggle_choices = [
     app_commands.Choice(name="On", value=1),
     app_commands.Choice(name="Off", value=0)
 ]
 
+# Define the bot command for toggling AI responses
 @bot.tree.command(name="aitoggle", description="Enable or disable automatic AI responses for this channel.")
 @app_commands.describe(toggle="On or off?")
 @app_commands.choices(toggle=toggle_choices)

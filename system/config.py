@@ -19,8 +19,8 @@ Super = "super" # Do not touch this setting! ⛔🚫
 
 # Web Search
 web_search = True # Enable or disable web search
-GOOGLE_CUSTOM_SEARCH_API_KEY = "YOUR_GOOGLE_CUSTOM_SEARCH_API_KEY" # Grab your google custom search api key at https://developers.google.com/custom-search/docs/paid_element
-GOOGLE_PROJECT_SEARCH_ENGINE_ID = "YOUR_GOOGLE_PROJECT_SEARCH_ENGINE_ID" # Grab your google project search engine id at https://programmablesearchengine.google.com/controlpanel/all
+GOOGLE_CUSTOM_SEARCH_API_KEY = "AIzaSyA1Pke5kT4OAnaQydrYZE_SauTGLwUqnV0" # Grab your google custom search api key at https://developers.google.com/custom-search/docs/paid_element
+GOOGLE_PROJECT_SEARCH_ENGINE_ID = "944ea93e0658a4ef1" # Grab your google project search engine id at https://programmablesearchengine.google.com/controlpanel/all
 
 # Model Configuration
 gemini_model = "Flash-002" # Options (Flash: Gemini 1.5 Flash | Pro: Gemini 1.5 Pro | Flash-8B: Gemini 1.5 Flash 8B | Flash-002: Gemini 1.5 Flash 002 | Pro-002: Gemini 1.5 Pro 002 | Flash-Latest: Gemini 1.5 Flash Latest | Pro-Latest: Gemini 1.5 Pro Latest | Exp-1114: Gemini Experimental 1114 | Exp-1121: Gemini Experimental 1121 | Exp-1206: Gemini Experimental 1206)
