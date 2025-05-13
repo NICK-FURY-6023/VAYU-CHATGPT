@@ -1,6 +1,6 @@
 # IMPORTANT
 #Discord Bot Token
-TOKEN = "MTEyNzIwNzM3MDUwMjcwNTI5Mw.GPTTl3.uurUH4FJFkWAtGdFVPgl7s9LM5o2NgON8hGKFw" # Grab your discord bot token at https://discord.com/developers/applications
+TOKEN = "" # Grab your discord bot token at https://discord.com/developers/applications
 #Gemini API KEY
 API_KEY = "AIzaSyAG8KorbSdYt0Hug1XtBAbkLV77ve6XzEQ" # Grab your gemini api key at https://aistudio.google.com/app/apikey
 #Hugging Face API KEY
