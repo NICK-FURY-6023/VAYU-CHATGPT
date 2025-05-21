@@ -19,7 +19,7 @@ SCRIM_MOD_ROLE_ID = 555555555555555555  # Role allowed to submit
 
 # === Initialize Gemini AI ===
 genai.configure(api_key=GEMINI_API_KEY)
-gemini_model = genai.GenerativeModel("gemini-pro-vision")
+gemini_model = genai.GenerativeModel("Gemini 1.5 Pro")
 
 # === Initialize Discord Client ===
 intents = discord.Intents.default()
